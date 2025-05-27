@@ -8,9 +8,9 @@ Original file is located at
 """
 
 """
+
 Problem: A Very Big Sum
-Category: Warmup
-Platform: HackerRank
+
 
 Description:
 You are given an array of integers. Compute and return the sum of the elements.
@@ -22,7 +22,10 @@ Output: 5000000015
 """
 
 def a_very_big_sum(ar):
-    return sum(ar)
+    sum=0
+    for i in ar:
+        sum+=int(i)
+    return sum
 
 if __name__ == "__main__":
     # Example usage

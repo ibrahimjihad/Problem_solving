@@ -1,7 +1,5 @@
 """
 Problem: Compare the Triplets
-Category: Implementation
-Platform: HackerRank
 
 Description:
 Alice and Bob each created a list of three integers to represent their ratings in three categories: problem clarity, originality, and difficulty.

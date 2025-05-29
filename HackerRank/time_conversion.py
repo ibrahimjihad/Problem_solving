@@ -15,20 +15,20 @@ diff:easy
 """
 def timeConversion(s):
     hour=int(s[0:2])
+
     rest=s[2:8]
     if s[-2]=="A":
         if hour==12:
-            hour=0
-            print(str(hour)+rest)
+            print("00:"+str((s[3:5]))+":"+(s[6:8]))
         else:
-            print(s)
+            print(s[:8])
     else:
         if hour!=12:
             hour+=12
             print(str(hour)+rest)
         else:
-            print(s)
-
+            print(s[:8])
+    
 if __name__ == '__main__':
     s = input()
     result = timeConversion(s)

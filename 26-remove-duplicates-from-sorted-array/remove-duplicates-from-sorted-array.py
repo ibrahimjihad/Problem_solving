@@ -3,7 +3,7 @@ class Solution:
         k=1
         while k<len(nums):
             if nums[k]==nums[k-1]:
-                del nums[k]
+                nums.pop(k)
                 k-=1
             k+=1
         print(nums)

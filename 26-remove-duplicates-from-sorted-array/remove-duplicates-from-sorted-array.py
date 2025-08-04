@@ -6,7 +6,7 @@ class Solution:
                 del nums[k]
                 k-=1
             k+=1
-    
+        print(nums)
 
         
         
